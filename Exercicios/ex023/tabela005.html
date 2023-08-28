@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais uma tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: ;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cprofissão {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercíco de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Black Sirius</td>
+            <td>M</td>
+            <td>51</td>
+            <td>Wizard</td>
+        </tr>
+        <tr>
+            <td>Gojo-San</td>
+            <td>M</td>
+            <td>30</td>
+            <td>O foda</td>
+        </tr>
+        <tr>
+            <td>Maki</td>
+            <td>F</td>
+            <td>25</td>
+            <td>A cabulosa</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
